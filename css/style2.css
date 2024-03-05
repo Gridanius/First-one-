@@ -1,52 +1,61 @@
-header {
-    background:orange;
-    color: white;
-    padding: 50px;
-    text-align: center;
-}
 body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+        background: #F6F6FA;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            padding-right: 40px;
+            font-family: 'Montserrat', sans-serif;
 }
-#navigation-bar{
-    background-color: #333333;
-position: sticky;
-top: 0;
-}
-#navigation-bar a {
+img{
 
-    color: white;
+
+}
+.img{
+    display: flex;
+    align-items: center;
+        justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+width: 50%;
+margin-left: 15%;
+justify-content: space-between;
+}
+.imgName{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+}
+.signIn{
+background-color: #4D94FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 15px;
+    font-size: 16px;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 26px;
 }
-
-.page-content{
-    padding: 1.5%;
+.separator{
     display: flex;
-    display: -ms-flexbox;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+align-items: center;
 }
-
-.sidebar{
-    -ms-flex: 30%;
-flex: 30%;
-padding-right: 2%;
-}
-
-.main{
-flex: 70%;
--ms-flex: 70%;
-}
-
-img{
-    width: 100%;
-}
-
-@media screen and (max-width: 700px) {
-    #navigation-bar{
-        position: relative;
-    }
-    .page-content{
-        flex-direction: column;
-    }
+.buyCart{
+    width: 60px;
+    height: 30px;
+    display: flex;
+margin-top: 5px;
 }
